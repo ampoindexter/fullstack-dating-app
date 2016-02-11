@@ -1,0 +1,36 @@
+{
+  "name": "projectTemplate",
+  "version": "1.0.0",
+  "description": "Express/Mongo project template",
+  "engines": {
+    "node": "4.2.4"
+  },
+  "scripts": {
+    "setup": "npm i && bower i",
+    "start": "node app.js",
+    "postinstall": "bower i"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ampoindexter/project-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ampoindexter/project-template/issues"
+  },
+  "homepage": "https://github.com/ampoindexter/project-template#readme",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "bower": "^1.7.7",
+    "cookie-parser": "^1.4.1",
+    "express": "^4.13.4",
+    "jade": "^1.11.0",
+    "kerberos": "0.0.18",
+    "mongoose": "^4.3.7",
+    "morgan": "^1.6.1",
+    "serve-favicon": "^2.3.0",
+    "stormpath": "^0.17.1"
+  }
+}
