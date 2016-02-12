@@ -26,6 +26,7 @@
     "bower": "^1.7.7",
     "cookie-parser": "^1.4.1",
     "express": "^4.13.4",
+    "express-stormpath": "^2.4.0",
     "jade": "^1.11.0",
     "kerberos": "0.0.18",
     "mongoose": "^4.3.7",
